@@ -1,0 +1,26 @@
+body{
+    padding-left: 150px;
+    background-image: url("bgpic.png");
+}
+
+.champ{
+    width: 250px;
+    margin: auto;
+    background-image: url("cardimg.jfif");
+    background-color: white;
+    background-blend-mode: luminosity;
+    color: lightgray;
+}
+
+.role-btn{
+    display: inline-block;
+    width: 6rem;
+    height: 60px;
+}
+
+#role-swap{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    width: 35rem;
+
+}
