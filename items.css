@@ -1,0 +1,17 @@
+.items_kep{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+.items_card{
+    height: 380px;
+    width: 350px;
+}
+h6{
+    text-decoration: underline;
+}
+.card-title{
+    text-align: center;
+}
