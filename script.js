@@ -104,3 +104,7 @@ function roles(a){
         }
     }
 }
+
+function runes(){
+    
+}

@@ -2,6 +2,32 @@ body{
     /* font-family: ; */
     padding-left: 10vw;
     background-image: url("bgpic.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#top, #mid, #jg, #sup, #bot{
+    background-size: contain;
+}
+
+#top{
+    background-image: url("role_pics/top.jpg" );
+}
+
+#mid{
+    background-image: url("role_pics/mid.jpg");
+}
+
+#jg{
+    background-image: url("role_pics/jng.jpg");
+}
+
+#sup{
+    background-image: url("role_pics/sup.jpg");
+}
+
+#bot{
+    background-image: url("role_pics/bot.jpg");
 }
 
 .champ{
@@ -19,15 +45,20 @@ body{
     background-color: paleturquoise;
 }
 
-#active{
-    background-color: #0d6efd;
-}
+/* #active{
+
+} */
 
 #role-swap{
     margin: 0px auto;
     margin-bottom: 30px;
     width: 35rem;
     
+}
+
+#role-swap col {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .champ_row_0, .champ_row_1, .champ_row_2, .champ_row_3, .champ_row_4, .champ_row_5{
@@ -56,7 +87,13 @@ body{
     width: 7vw;
 }
 
-.sidenav a:hover {
+.sidenav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav li:hover {
     border: solid 2px navy;
 }
 
