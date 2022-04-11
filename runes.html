@@ -9,7 +9,7 @@
     <title>Runes</title>
     
 </head>
-<body>
+<body onload="runes_init()">
     <div class="sidenav">
         <ul>
             <li><a href="index.html"><img src="Runeterra_Crest_icon.png"></a></li>
@@ -18,41 +18,38 @@
         </ul>
     </div>
 
-    <div class="rune-swap row row-cols-md-5 row-cols-sm-3">
-        <div class="col">
-            <img src="runes/Precision_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Domination_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Sorcery_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Resolve_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Inspiration_icon.png" class="rune-tree" onclick="">
-        </div>
-    </div>
-
-    <div class=" row row-cols-md-5 row-cols-sm-3">
-        <div class="col">
-            <img src="runes/Precision_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Domination_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Sorcery_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Resolve_icon.png" class="rune-tree" onclick="">
-        </div>
-        <div class="col">
-            <img src="runes/Inspiration_icon.png" class="rune-tree" onclick="">
-        </div>
-    </div>
+    <table class="rune-table">
+        <tr>
+            <td class="equipped"><img src="runes/Precision_icon.png" class="rune-tree" onclick=""></td>
+            <td><img src="runes/Domination_icon.png" class="rune-tree" onclick=""></td>
+            <td><img src="runes/Sorcery_icon.png" class="rune-tree" onclick=""></td>
+            <td><img src="runes/Resolve_icon.png" class="rune-tree" onclick=""> </td>
+            <td><img src="runes/Inspiration_icon.png" class="rune-tree" onclick=""></td>
+            <td>&nbsp;</td>
+            <td ><img src="runes/Domination_icon.png" class="rune-tree" onclick=""></td>
+            <td><img src="runes/Sorcery_icon.png" class="rune-tree" onclick=""></td>
+            <td><img src="runes/Resolve_icon.png" class="rune-tree" onclick=""></td>
+            <td class="equipped"><img src="runes/Inspiration_icon.png" class="rune-tree" onclick=""></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="4">
+                <p>Keystones</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="keystones"><img src="runes/precision/Press_the_Attack_rune.png" title="Press the Attack"></td>
+            <td class="keystones"><img src="runes/precision/Lethal_Tempo_rune.png" title="Lethal Tempo"></td>
+            <td class="keystones"><img src="runes/precision/Fleet_Footwork_rune.png" title="Fleet Footwork"></td>
+            <td class="keystones"><img src="runes/precision/Conqueror_rune.png" title="Conqueror"></td>
+            <td></td>
+            <td></td>
+            <td class="insp"><img src="runes/inspiration/Hextech_Flashtraption_rune.png" title="HextechFlashtraption"></td>
+            <td class="insp"><img src="runes/inspiration/Magical_Footwear_rune.png" title="Magical Footwear"></td>
+            <td class="insp"><img src="runes/inspiration/Perfect_Timing_rune.png" title="Perfect Timing"></td>
+        </tr>
+    </table>
 
 <script src="script.js"></script> 
 </body>

@@ -105,6 +105,6 @@ function roles(a){
     }
 }
 
-function runes(){
+function runes_init(){
     
 }
