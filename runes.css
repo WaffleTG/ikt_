@@ -26,12 +26,13 @@ body{
 
 .sidenav li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    margin-top: 8px;
+    padding: 0px;
 }
 
-.sidenav li:hover {
-    border: solid 2px navy;
+.sidenav img:hover {
+    transform: scale(120%);
 }
 
 @media screen and (max-height: 450px) {
@@ -50,8 +51,8 @@ table{
     cursor: pointer;
 }
 
-td{
-    width: 50px;
+td img, td{
+    width: 60px;
 }
 
 .equipped{
@@ -62,4 +63,33 @@ td{
 .insp{
     border: 3px solid rgb(69, 205, 255);
     border-radius: 50%;
+}
+
+.keystones{
+    width: 80px;
+}
+
+.left-row{
+    margin-left: 30px;
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    padding-left: 25vw;
+}
+
+.right{
+    padding-right: 25vw;
+}
+
+tr{
+    display: block;
+}
+
+.gap{
+    width: 100px;    
 }
