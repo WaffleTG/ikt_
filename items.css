@@ -43,6 +43,8 @@ body{
     margin: auto;
     border-radius: 20px;
     
+    
+    
 }
 .items_card{
     height: 380px;
@@ -56,9 +58,9 @@ h6{
 }
 .card_kep{
     text-align: center;
-    background-color: lightcyan;
-    background-image: url("kepek/brackets-bg.jpg");
-    background-repeat: no-repeat;
+    
+    background-image: url("cardimg.jfif");
+    background-repeat: repeat;
 }
 .card-body{
     border-top: lightsteelblue solid 3pt;
@@ -70,17 +72,22 @@ h6{
     
 }
 
-.items_card{
-    width: 300px;
+.item-stat{
+    text-align: center;
 }
 
 #item-h1{
     text-align: center;
+    color: blanchedalmond;
 
 }
 
 .item-ossz-kepek{
-    padding-right: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    
+    
 
 }
 .item-ossz-statok{
@@ -93,6 +100,10 @@ h6{
     padding-right: 50px;
     padding-left: 15px;
 }
-td{
+.td-border{
     border: solid 2pt blanchedalmond;
+    
+}
+.card{
+    display: block;
 }
