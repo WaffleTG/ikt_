@@ -47,12 +47,8 @@ table{
     margin-right: auto;
 }
 
-.rune-table img{
+ img{
     cursor: pointer;
-}
-
-td img, td{
-    width: 60px;
 }
 
 .equipped{
@@ -65,31 +61,46 @@ td img, td{
     border-radius: 50%;
 }
 
-.keystones{
-    width: 80px;
-}
-
 .left-row{
     margin-left: 30px;
 }
 
+/* 
 .row{
     margin-left: auto;
     margin-right: auto;
+} */
+
+.rune-paths{
+    margin-left: 15%;
 }
 
-.left{
-    padding-left: 25vw;
+.col img{
+    width: 55px;
 }
 
-.right{
-    padding-right: 25vw;
+.col img:hover{
+    filter: brightness(60%);
 }
 
-tr{
-    display: block;
+.runeshards .row .col img{
+    width: 40px;
 }
 
-.gap{
-    width: 100px;    
+.runeshards{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.marg-tp{
+    margin-top: 25px;
+}
+
+
+img.keystones{
+    width: 70px; 
+}
+
+.stuff{
+    margin-left:25px;
 }

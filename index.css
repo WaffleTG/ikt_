@@ -9,6 +9,7 @@ body{
 
 #top, #mid, #jg, #sup, #bot{
     background-size: contain;
+    display:inline-block;
 }
 
 #top{
