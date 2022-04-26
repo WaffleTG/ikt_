@@ -108,3 +108,14 @@ function roles(a){
 function runes_init(){
     
 }
+
+function togglenav(){
+    var nav = document.getElementById("sidenav")
+    if(nav.style.width = "150px"){
+        document.getElementById("sidebutton").style.display = "block";
+        nav.style.width = "0px";
+    } else{
+        nav.style.width = "150px";
+        document.getElementById("sidebutton").style.display = "block";
+    }
+}
