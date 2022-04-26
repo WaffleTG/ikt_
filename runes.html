@@ -10,7 +10,8 @@
     
 </head>
 <body onload="runes_init()">
-    <div class="sidenav">
+    <button id="sidebutton" onclick="togglenav()"><p>☰</p></button>
+    <div class="sidenav" id="sidenav">
         <ul>
             <li><a href="index.html"><img src="Runeterra_Crest_icon.png"></a></li>
             <li><a href="runes.html"><img src="runes/Rune_icon.png"></a></li>
@@ -30,29 +31,29 @@
                 </div>
             </div>
             <div class="row marg-tp">
-                <div class="col">
+                <div class="col runeico">
                     <img class="keystones" src="runes/precision/Press_the_Attack_rune.png" title="Press the Attack">
                     <img class="keystones" src="runes/precision/Lethal_Tempo_rune.png" title="Lethal Tempo">
                     <img class="keystones" src="runes/precision/Fleet_Footwork_rune.png" title="Fleet Footwork">
                     <img class="keystones" src="runes/precision/Conqueror_rune.png" title="Conqueror">
                 </div>
             </div>
-            <div class="row marg-tp stuff">
-                <div class="col">
+            <div class="row marg-tp leftmargo">
+                <div class="col runeico">
                     <img src="runes/precision/Overheal_rune.png" title="Overheal">
                     <img src="runes/precision/Triumph_rune.png" title="Triumph">    
                     <img src="runes/precision/Presence_of_Mind_rune.png" title="Presence of Mind">
                 </div>
             </div>
-            <div class="row stuff">
-                <div class="col">
+            <div class="row leftmargo">
+                <div class="col runeico">
                     <img src="runes/precision/Legend-_Alacrity_rune.png" title="Legend: Alacrity">
                     <img src="runes/precision/Legend-_Tenacity_rune.png" title="Legend: Tenacity">
                     <img src="runes/precision/Legend-_Bloodline_rune.png" title="Legend: Bloodline">
                 </div>
             </div>
-            <div class="row stuff">
-                <div class="col">
+            <div class="row leftmargo">
+                <div class="col runeico">
                     <img src="runes/precision/Coup_de_Grace_rune.png" title="Coup de Grace">
                     <img src="runes/precision/Cut_Down_rune.png" title="Cut Down">
                     <img src="runes/precision/Last_Stand_rune.png" title="Last Stand">
@@ -61,58 +62,57 @@
         </div>
         <div class="col">
             <div class="row">
-                <div class="col">
+                <div class="col runeico">
                     <img src="runes/Domination_icon.png" class="rune-tree" onclick="">
                     <img src="runes/Sorcery_icon.png" class="rune-tree" onclick="">
                     <img src="runes/Resolve_icon.png" class="rune-tree" onclick="">
                     <img class="equipped" src="runes/Inspiration_icon.png" class="rune-tree" onclick="">
                 </div>
             </div>
-            <div class="row marg-tp stuff">
-                <div class="col">
+            <div class="row marg-tp leftmargo">
+                <div class="col runeico">
                     <img src="runes/inspiration/Perfect_Timing_rune.png" title="Perfect Timing">
                     <img src="runes/inspiration/Magical_Footwear_rune.png" title="Magical Footwear">
                     <img class="insp" src="runes/inspiration/Hextech_Flashtraption_rune.png" title="HextechFlashtraption">
                 </div>
             </div>
-            <div class="row stuff">
-                <div class="col">
+            <div class="row leftmargo">
+                <div class="col runeico">
                     <img src="runes/inspiration/Futures_Market_rune.png" title="Future's Market">
                     <img src="runes/inspiration/Minion_Dematerializer_rune.png" title="Minion Dematerializer">
                     <img src="runes/inspiration/Biscuit_Delivery_rune.png" title="Biscuit Delivery">
                 </div>
             </div>
-            <div class="row stuff">
-                <div class="col">
+            <div class="row leftmargo">
+                <div class="col runeico">
                     <img src="runes/inspiration/Cosmic_Insight_rune.png" title="Cosmic Insight">
                     <img src="runes/inspiration/Approach_Velocity_rune.png" title="Approach Velocity">
                     <img src="runes/inspiration/Time_Warp_Tonic_rune.png" title="Timewarp Tonic">
                 </div>
             </div>
             <div class="runeshards">
-                <div class="row">
+                <div class="row leftmargo">
                     <div class="col">
-                        <img src="runes/Adaptive_icon.png" title="Adaptive Force">
-                        <img src="runes/Attack_Speed.png" title="Attack Speed">
-                        <img src="runes/Cdr.png" title="Cooldown Reduction">
+                        <img src="runes/Adaptive_icon.png" title="Adaptive Force" class="shardico">
+                        <img src="runes/Attack_Speed.png" title="Attack Speed" class="shardico">
+                        <img src="runes/Cdr.png" title="Cooldown Reduction" class="shardico">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row leftmargo">
                     <div class="col">
-                        <img src="runes/Adaptive_icon.png" title="Adaptive Force">
-                        <img src="runes/Armor.png" title="Armor">
-                        <img src="runes/Magic_Resist.png" title="Magic Resist">
+                        <img src="runes/Adaptive_icon.png" title="Adaptive Force" class="shardico">
+                        <img src="runes/Armor.png" title="Armor" class="shardico">
+                        <img src="runes/Magic_Resist.png" title="Magic Resist" class="shardico">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row leftmargo">
                     <div class="col">
-                        <img src="runes/Health.png" title="Health">
-                        <img src="runes/Armor.png" title="Armor">
-                        <img src="runes/Magic_Resist.png" title="Magic Resist">
+                        <img src="runes/Health.png" title="Health" class="shardico">
+                        <img src="runes/Armor.png" title="Armor" class="shardico">
+                        <img src="runes/Magic_Resist.png" title="Magic Resist" class="shardico">
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 <script src="script.js"></script> 

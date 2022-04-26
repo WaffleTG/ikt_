@@ -1,6 +1,6 @@
 body{
     /* font-family: ; */
-    padding-left: 10vw;
+    padding-left: 150px;
     background-image: url("bgpic.png");
     background-size: cover;
     background-repeat: repeat-y;
@@ -8,20 +8,23 @@ body{
 }
 
 .sidenav{
-    width: 10vw;
+    width: 150px;
     height: 100%;
-    background-image: url("cardimg.jfif");
+    background-image: url("cardimg.jpg");
+    background-size: cover;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     padding-top: 20px;
+    transition: 0.5s;
 }
 
 .sidenav a, .sidenav a img{
     margin: auto;
-    height: 7vw;
-    width: 7vw;
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
 }
 
 .sidenav li {
@@ -35,10 +38,25 @@ body{
     transform: scale(120%);
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    .sidenav {width: 100px;}
+#sidebutton{
+    display: none;
+    background-image: url("cardimg.jpg");
+    color: aliceblue;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    z-index: 2;
+    position: fixed;
+    top: 5px;
+    left: 70px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    #sidebutton{display: inline;}
+    .sidenav{display: none; width: 185px;}
+    a img{width: 75px;}
+    body{padding-left: 75px;}
 }
 
 table{
@@ -49,6 +67,11 @@ table{
 
  img{
     cursor: pointer;
+}
+
+.shardico{
+    margin-top: 0px!important;
+    width: 40px!important;
 }
 
 .equipped{
@@ -77,6 +100,7 @@ table{
 
 .col img{
     width: 55px;
+    margin-top: 15px;
 }
 
 .col img:hover{
@@ -84,7 +108,7 @@ table{
 }
 
 .runeshards .row .col img{
-    width: 40px;
+    width: 50px;
 }
 
 .runeshards{
@@ -98,9 +122,10 @@ table{
 
 
 img.keystones{
-    width: 70px; 
+    width: 87.5px; 
 }
 
-.stuff{
+.leftmargo{
     margin-left:25px;
 }
+
