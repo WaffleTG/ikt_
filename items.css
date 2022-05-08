@@ -34,7 +34,7 @@
 
 body{
     padding-left: 10vw;
-    background-image: url("bgpic.png");
+    background-image: url("26-269621_dark-space-wallpapers-12137-high-resolution-dark-space.jpg");
     
 }
 h5{
@@ -91,7 +91,7 @@ h6{
 .ch-icon{
     height: 100px;
     width: 100px;
-    margin: auto;
+    margin-left: 20px;
     border-radius: 60px;
 }
 
@@ -101,7 +101,7 @@ h6{
 
 #item-h1{
     text-align: center;
-    color: blanchedalmond;
+    color:aliceblue;
 
 }
 
@@ -113,12 +113,12 @@ h6{
     
 
 }
-.item-ossz-statok{
-    color: blanchedalmond;
-}
 
 .bp-icon{
     margin-left: 150px;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+#Irelia-bp, #Diana-bp, #Yasuo-bp, #Lucian-bp, #Pyke-bp{
+    text-decoration: overline 5pt aliceblue solid;
 }
