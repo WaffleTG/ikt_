@@ -53,12 +53,12 @@ body{
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     #sidebutton{display: inline;}
-    /* .sidenav{display: none; width: 185px;} */
+    .sidenav{display: none; width: 185px;}
     a img{width: 75px;}
     body{padding-left: 75px;}
-}
+} */
 
 table{
     empty-cells: show;
