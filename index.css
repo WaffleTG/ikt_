@@ -105,3 +105,16 @@ body{
     .sidenav a {font-size: 18px;}
     .sidenav {width: 100px;}
   }
+  .hivatkozas{
+      color: lightslategrey;
+      font-style: italic;
+  }
+  a:hover {
+      color: white;
+      text-decoration: none;
+  }
+
+  a{
+      color: lightslategrey;
+      text-decoration: none;
+  }
