@@ -1,18 +1,21 @@
 .sidenav{
-    width: 10vw;
+    width: 150px;
     height: 100%;
     background-image: url("cardimg.jpg");
+    background-size: cover;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     padding-top: 20px;
+    transition: 0.5s;
 }
 
 .sidenav a, .sidenav a img{
     margin: auto;
-    height: 7vw;
-    width: 7vw;
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
 }
 
 .sidenav li {

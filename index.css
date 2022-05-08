@@ -52,9 +52,11 @@ body{
 } */
 
 #role-swap{
+    padding-left: 20%;
     margin: 0px auto;
     margin-bottom: 30px;
-    width: 35rem;
+    width: 90%;
+    padding-right: 15%;
     
 }
 
@@ -73,20 +75,23 @@ body{
 }
 
 .sidenav{
-    width: 10vw;
+    width: 150px;
     height: 100%;
     background-image: url("cardimg.jpg");
+    background-size: cover;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     padding-top: 20px;
+    transition: 0.5s;
 }
 
 .sidenav a, .sidenav a img{
     margin: auto;
-    height: 7vw;
-    width: 7vw;
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
 }
 
 .sidenav li {
@@ -105,16 +110,23 @@ body{
     .sidenav a {font-size: 18px;}
     .sidenav {width: 100px;}
   }
-  .hivatkozas{
+
+.hivatkozas{
       color: lightslategrey;
       font-style: italic;
-  }
-  a:hover {
+}
+
+a:hover {
       color: white;
       text-decoration: none;
-  }
+}
 
-  a{
+a{
       color: lightslategrey;
       text-decoration: none;
-  }
+}
+
+#champs{
+    padding-left: 20%;
+    padding-right: 15%;
+}
