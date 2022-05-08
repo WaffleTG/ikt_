@@ -128,3 +128,7 @@ a{
 a :hover{
     color: darkcyan;
 }
+.quote{
+    font-style: italic;
+    color: darkgrey;
+}
