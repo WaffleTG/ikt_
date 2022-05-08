@@ -764,13 +764,13 @@ function setsecondary(a) {
         
 }
 
-function togglenav(){
-    var nav = document.getElementById("sidenav")
-    if(nav.style.display = "none"){
-        document.getElementById("sidebutton").style.display = "block";
-        nav.style.display = "block";
-    } else{
-        nav.style.display = "none";
-        document.getElementById("sidebutton").style.display = "block";
-    }
-}
+// function togglenav(){
+//     var nav = document.getElementById("sidenav")
+//     if(nav.style.display = "none"){
+//         document.getElementById("sidebutton").style.display = "block";
+//         nav.style.display = "block";
+//     } else{
+//         nav.style.display = "none";
+//         document.getElementById("sidebutton").style.display = "block";
+//     }
+// }
