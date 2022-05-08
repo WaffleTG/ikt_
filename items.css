@@ -122,3 +122,9 @@ h6{
 #Irelia-bp, #Diana-bp, #Yasuo-bp, #Lucian-bp, #Pyke-bp{
     text-decoration: overline 5pt aliceblue solid;
 }
+a{
+    text-decoration: none;
+}
+a :hover{
+    color: darkcyan;
+}
