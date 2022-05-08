@@ -5,6 +5,7 @@ body{
     background-size: cover;
     background-repeat: repeat-y;
     padding-top: 10px;
+    overflow-x: hidden;
 }
 
 .sidenav{
@@ -54,7 +55,7 @@ body{
 
 @media screen and (max-width: 800px) {
     #sidebutton{display: inline;}
-    .sidenav{display: none; width: 185px;}
+    /* .sidenav{display: none; width: 185px;} */
     a img{width: 75px;}
     body{padding-left: 75px;}
 }
