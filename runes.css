@@ -75,14 +75,13 @@ table{
     width: 40px!important;
 }
 
+.sequipped{
+    filter: brightness(40%);
+}
+
 .equipped{
     border-radius: 50%;
     border: 2px yellow solid;
-}
-
-.insp{
-    border: 3px solid rgb(69, 205, 255);
-    border-radius: 50%;
 }
 
 .left-row{

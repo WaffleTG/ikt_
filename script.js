@@ -30,6 +30,7 @@ function roles(a){
 
                 break;
             }
+
         case 1:
             if(jng.classList.contains("active ")== true){
                 break;
@@ -48,6 +49,7 @@ function roles(a){
 
                 break;
             }
+
         case 2:
             if(mid.classList.contains("active") == true){
                 break;
@@ -67,6 +69,7 @@ function roles(a){
 
                 break;
             }
+
         case 3:
             if(bot.classList.contains("active") == true){
                 break;
@@ -85,6 +88,7 @@ function roles(a){
 
                 break;
             }
+
         case 4:
         if(sup.classList.contains("active") == true){
             break;
@@ -118,10 +122,366 @@ var shard1 = 2;
 var shard2 = 1;
 var shard3 = 2;
 
-function setkeystone(a){
+function setsrow1(a){
     switch(a){
         case 1:
+            if(document.getElementById("srow1").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow1").children[0].classList.add("equipped");
+                document.getElementById("srow1").children[1].classList.remove("equipped");
+                document.getElementById("srow1").children[2].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("srow1").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow1").children[1].classList.add("equipped");
+                document.getElementById("srow1").children[0].classList.remove("equipped");
+                document.getElementById("srow1").children[2].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("srow1").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow1").children[2].classList.add("equipped");
+                document.getElementById("srow1").children[0].classList.remove("equipped");
+                document.getElementById("srow1").children[1].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setsrow2(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("srow2").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow2").children[0].classList.add("equipped");
+                document.getElementById("srow2").children[1].classList.remove("equipped");
+                document.getElementById("srow2").children[2].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("srow2").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow2").children[1].classList.add("equipped");
+                document.getElementById("srow2").children[0].classList.remove("equipped");
+                document.getElementById("srow2").children[2].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("srow2").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow2").children[2].classList.add("equipped");
+                document.getElementById("srow2").children[0].classList.remove("equipped");
+                document.getElementById("srow2").children[1].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setsrow3(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("srow3").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow3").children[0].classList.add("equipped");
+                document.getElementById("srow3").children[1].classList.remove("equipped");
+                document.getElementById("srow3").children[2].classList.remove("equipped");
+                document.getElementById("srow3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("srow3").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow3").children[1].classList.add("equipped");
+                document.getElementById("srow3").children[0].classList.remove("equipped");
+                document.getElementById("srow3").children[2].classList.remove("equipped");
+                document.getElementById("srow3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("srow3").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow3").children[2].classList.add("equipped");
+                document.getElementById("srow3").children[0].classList.remove("equipped");
+                document.getElementById("srow3").children[1].classList.remove("equipped");
+                document.getElementById("srow3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 4:
+            if(document.getElementById("srow3").children[3].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("srow3").children[3].classList.add("equipped");
+                document.getElementById("srow3").children[0].classList.remove("equipped");
+                document.getElementById("srow3").children[1].classList.remove("equipped");
+                document.getElementById("srow3").children[2].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setshard1(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("shard1").children[0].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard1").children[1].classList.add("sequipped");
+                document.getElementById("shard1").children[2].classList.add("sequipped");
+                document.getElementById("shard1").children[0].classList.remove("sequipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("shard1").children[1].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard1").children[0].classList.add("sequipped");
+                document.getElementById("shard1").children[2].classList.add("sequipped");
+                document.getElementById("shard1").children[1].classList.remove("sequipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("shard1").children[2].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard1").children[1].classList.add("sequipped");
+                document.getElementById("shard1").children[0].classList.add("sequipped");
+                document.getElementById("shard1").children[2].classList.remove("sequipped");
+                break;
+            }
             
+    }
+}
+
+function setshard2(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("shard2").children[0].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard2").children[1].classList.add("sequipped");
+                document.getElementById("shard2").children[2].classList.add("sequipped");
+                document.getElementById("shard2").children[0].classList.remove("sequipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("shard2").children[1].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard2").children[0].classList.add("sequipped");
+                document.getElementById("shard2").children[2].classList.add("sequipped");
+                document.getElementById("shard2").children[1].classList.remove("sequipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("shard2").children[2].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard2").children[1].classList.add("sequipped");
+                document.getElementById("shard2").children[0].classList.add("sequipped");
+                document.getElementById("shard2").children[2].classList.remove("sequipped");
+                break;
+            }
+            
+    }
+}
+
+function setshard3(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("shard3").children[0].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard3").children[1].classList.add("sequipped");
+                document.getElementById("shard3").children[2].classList.add("sequipped");
+                document.getElementById("shard3").children[0].classList.remove("sequipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("shard3").children[1].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard3").children[0].classList.add("sequipped");
+                document.getElementById("shard3").children[2].classList.add("sequipped");
+                document.getElementById("shard3").children[1].classList.remove("sequipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("shard3").children[2].classList.contains("sequipped")==false){
+                break;
+            } else {
+                document.getElementById("shard3").children[1].classList.add("sequipped");
+                document.getElementById("shard3").children[0].classList.add("sequipped");
+                document.getElementById("shard3").children[2].classList.remove("sequipped");
+                break;
+            }
+            
+    }
+}
+
+function setkeystone(a){
+    // document.getElementsByClassName("keystones");
+    switch(a){
+        case 1:
+            if(document.getElementsByClassName("keystones")[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementsByClassName("keystones")[0].classList.add("equipped");
+                document.getElementsByClassName("keystones")[1].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[2].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[3].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementsByClassName("keystones")[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementsByClassName("keystones")[1].classList.add("equipped");
+                document.getElementsByClassName("keystones")[2].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[3].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[0].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementsByClassName("keystones")[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementsByClassName("keystones")[2].classList.add("equipped");
+                document.getElementsByClassName("keystones")[0].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[1].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[3].classList.remove("equipped");
+                break;
+            }
+        case 4:
+            if(document.getElementsByClassName("keystones")[3].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementsByClassName("keystones")[3].classList.add("equipped");
+                document.getElementsByClassName("keystones")[0].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[1].classList.remove("equipped");
+                document.getElementsByClassName("keystones")[2].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setrow1(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("row1").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row1").children[0].classList.add("equipped");
+                document.getElementById("row1").children[1].classList.remove("equipped");
+                document.getElementById("row1").children[2].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("row1").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row1").children[1].classList.add("equipped");
+                document.getElementById("row1").children[0].classList.remove("equipped");
+                document.getElementById("row1").children[2].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("row1").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row1").children[2].classList.add("equipped");
+                document.getElementById("row1").children[0].classList.remove("equipped");
+                document.getElementById("row1").children[1].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setrow2(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("row2").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row2").children[0].classList.add("equipped");
+                document.getElementById("row2").children[1].classList.remove("equipped");
+                document.getElementById("row2").children[2].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("row2").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row2").children[1].classList.add("equipped");
+                document.getElementById("row2").children[0].classList.remove("equipped");
+                document.getElementById("row2").children[2].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("row2").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row2").children[2].classList.add("equipped");
+                document.getElementById("row2").children[0].classList.remove("equipped");
+                document.getElementById("row2").children[1].classList.remove("equipped");
+                break;
+            }
+    }
+}
+
+function setrow3(a){
+    switch(a){
+        case 1:
+            if(document.getElementById("row3").children[0].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row3").children[0].classList.add("equipped");
+                document.getElementById("row3").children[1].classList.remove("equipped");
+                document.getElementById("row3").children[2].classList.remove("equipped");
+                document.getElementById("row3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 2:
+            if(document.getElementById("row3").children[1].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row3").children[1].classList.add("equipped");
+                document.getElementById("row3").children[0].classList.remove("equipped");
+                document.getElementById("row3").children[2].classList.remove("equipped");
+                document.getElementById("row3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 3:
+            if(document.getElementById("row3").children[2].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row3").children[2].classList.add("equipped");
+                document.getElementById("row3").children[0].classList.remove("equipped");
+                document.getElementById("row3").children[1].classList.remove("equipped");
+                document.getElementById("row3").children[3].classList.remove("equipped");
+                break;
+            }
+        case 4:
+            if(document.getElementById("row3").children[3].classList.contains("equipped")==true){
+                break;
+            } else {
+                document.getElementById("row3").children[3].classList.add("equipped");
+                document.getElementById("row3").children[0].classList.remove("equipped");
+                document.getElementById("row3").children[1].classList.remove("equipped");
+                document.getElementById("row3").children[2].classList.remove("equipped");
+                break;
+            }
     }
 }
 
@@ -146,6 +506,12 @@ function setfamily(a){
                 document.getElementById("row3").children[0].src="runes/precision/Coup_de_Grace_rune.png"
                 document.getElementById("row3").children[1].src="runes/precision/Cut_Down_rune.png"
                 document.getElementById("row3").children[2].src="runes/precision/Last_Stand_rune.png"
+                document.getElementById("row3").children[3].src=""
+                document.getElementsByClassName("rune-tree")[0].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[1].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[2].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[3].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[4].classList.remove("equipped");
                 break;
             }
 
@@ -165,9 +531,16 @@ function setfamily(a){
                 document.getElementById("row2").children[0].src="runes/domination/Zombie_Ward_rune.png"
                 document.getElementById("row2").children[1].src="runes/domination/Ghost_Poro_rune.png"
                 document.getElementById("row2").children[2].src="runes/domination/Eyeball_Collection_rune.png"
-                document.getElementById("row3").children[0].src="runes/domination/Cheap_Shot_rune.png"
-                document.getElementById("row3").children[1].src="runes/domination/Taste_of_Blood_rune.png"
-                document.getElementById("row3").children[2].src="runes/domination/Sudden_Impact_rune.png"
+                document.getElementById("row3").children[0].src="runes/domination/Treasure_Hunter_rune.png"
+                document.getElementById("row3").children[1].src="runes/domination/Ingenious_Hunter_rune.png"
+                document.getElementById("row3").children[2].src="runes/domination/Relentless_Hunter_rune.png"
+                document.getElementById("row3").children[3].src="runes/domination/Ultimate_Hunter_rune.png"
+
+                document.getElementsByClassName("rune-tree")[0].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[1].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[2].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[3].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[4].classList.remove("equipped");
                 break;
             }
 
@@ -191,6 +564,13 @@ function setfamily(a){
                 document.getElementById("row3").children[0].src="runes/sorcery/Scorch_rune.png"
                 document.getElementById("row3").children[1].src="runes/sorcery/Waterwalking_rune.png"
                 document.getElementById("row3").children[2].src="runes/sorcery/Gathering_Storm_rune.png"
+                document.getElementById("row3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[0].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[1].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[2].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[3].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[4].classList.remove("equipped");
                 break;
             }
 
@@ -213,6 +593,13 @@ function setfamily(a){
                 document.getElementById("row3").children[0].src="runes/resolve/Overgrowth_rune.png"
                 document.getElementById("row3").children[1].src="runes/resolve/Revitalize_rune.png"
                 document.getElementById("row3").children[2].src="runes/resolve/Unflinching_rune.png"
+                document.getElementById("row3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[0].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[1].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[2].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[3].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[4].classList.remove("equipped");
                 break;
             }
 
@@ -235,6 +622,13 @@ function setfamily(a){
                 document.getElementById("row3").children[0].src="runes/inspiration/Cosmic_Insight_rune.png"
                 document.getElementById("row3").children[1].src="runes/inspiration/Approach_Velocity_rune.png"
                 document.getElementById("row3").children[2].src="runes/inspiration/Time_Warp_Tonic_rune.png"
+                document.getElementById("row3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[0].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[1].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[2].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[3].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[4].classList.add("equipped");
                 break;
             }
     }
@@ -257,6 +651,13 @@ function setsecondary(a) {
                 document.getElementById("srow3").children[0].src="runes/precision/Coup_de_Grace_rune.png"
                 document.getElementById("srow3").children[1].src="runes/precision/Cut_Down_rune.png"
                 document.getElementById("srow3").children[2].src="runes/precision/Last_Stand_rune.png"
+                document.getElementById("srow3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[5].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[6].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[7].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[8].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[9].classList.remove("equipped");
                 break;
             }
 
@@ -272,9 +673,16 @@ function setsecondary(a) {
                 document.getElementById("srow2").children[0].src="runes/domination/Zombie_Ward_rune.png"
                 document.getElementById("srow2").children[1].src="runes/domination/Ghost_Poro_rune.png"
                 document.getElementById("srow2").children[2].src="runes/domination/Eyeball_Collection_rune.png"
-                document.getElementById("srow3").children[0].src="runes/domination/Cheap_Shot_rune.png"
-                document.getElementById("srow3").children[1].src="runes/domination/Taste_of_Blood_rune.png"
-                document.getElementById("srow3").children[2].src="runes/domination/Sudden_Impact_rune.png"
+                document.getElementById("srow3").children[0].src="runes/domination/Treasure_Hunter_rune.png"
+                document.getElementById("srow3").children[1].src="runes/domination/Ingenious_Hunter_rune.png"
+                document.getElementById("srow3").children[2].src="runes/domination/Relentless_Hunter_rune.png"
+                document.getElementById("srow3").children[3].src="runes/domination/Ultimate_Hunter_rune.png"
+
+                document.getElementsByClassName("rune-tree")[5].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[6].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[7].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[8].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[9].classList.remove("equipped");
                 break;
             }
 
@@ -293,6 +701,13 @@ function setsecondary(a) {
                 document.getElementById("srow3").children[0].src="runes/sorcery/Scorch_rune.png"
                 document.getElementById("srow3").children[1].src="runes/sorcery/Waterwalking_rune.png"
                 document.getElementById("srow3").children[2].src="runes/sorcery/Gathering_Storm_rune.png"
+                document.getElementById("srow3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[5].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[6].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[7].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[8].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[9].classList.remove("equipped");
                 break;
             }
 
@@ -311,6 +726,13 @@ function setsecondary(a) {
                 document.getElementById("srow3").children[0].src="runes/resolve/Overgrowth_rune.png"
                 document.getElementById("srow3").children[1].src="runes/resolve/Revitalize_rune.png"
                 document.getElementById("srow3").children[2].src="runes/resolve/Unflinching_rune.png"
+                document.getElementById("srow3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[5].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[6].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[7].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[8].classList.add("equipped");
+                document.getElementsByClassName("rune-tree")[9].classList.remove("equipped");
                 break;
             }
 
@@ -329,6 +751,13 @@ function setsecondary(a) {
                 document.getElementById("srow3").children[0].src="runes/inspiration/Cosmic_Insight_rune.png"
                 document.getElementById("srow3").children[1].src="runes/inspiration/Approach_Velocity_rune.png"
                 document.getElementById("srow3").children[2].src="runes/inspiration/Time_Warp_Tonic_rune.png"
+                document.getElementById("srow3").children[3].src=""
+
+                document.getElementsByClassName("rune-tree")[5].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[6].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[7].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[8].classList.remove("equipped");
+                document.getElementsByClassName("rune-tree")[9].classList.add("equipped");
                 break;
             }
     }
